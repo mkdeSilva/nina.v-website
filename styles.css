@@ -1,0 +1,75 @@
+/* 
+M. K. DE SILVA
+
+// Colour palette 
+
+Nina's colour
+#ddb8c5
+
+*/
+
+font-face {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color:#fff9f2; /* NINA'S COLOR */
+  color:rgb(0, 0, 0);
+  font-size: 1em;
+  border: 3px solid #ddb8c5;
+  padding: 30px;
+}
+
+h1 {
+  font-size:4em;
+  /*font-family: 'Pacifico', cursive;*/
+  /*font-family: 'Dancing Script', cursive;*/
+  font-family: 'Yesteryear', cursive;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+/* Side Navigation Bar */
+
+.side-nav {
+  height: 100%;
+  width: 0; /* changes with javascript */
+  position:fixed;
+  z-index: 1; /* Stays on top */
+  top: 0;
+  left: 0;
+  background-color: #ddb8c5;
+  overflow-x: hidden; /* Disables horizontal scroll */
+  padding-top: 60px;
+  transition: 0.5s; /* 0.5s transition effect to slide */
+}
+
+.side-nav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover, .offcanvas a:focus {
+  color: #b791a3;
+}
+
+.side-nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .side-nav {padding-top: 15px;}
+  .side-nav a {font-size: 18px;}
+}
+/* END OF NAVIGATION BAR */
