@@ -1,8 +1,6 @@
 function openNav() {
   document.getElementById("side-bar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
-    console.log('hello');
-
   // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
